@@ -6,7 +6,7 @@ struct process
 {
     char name;
     int AT,BT,WT,TAT,RT,CT;
-}Q1[10],Q2[10],Q3[10];
+}Q1[10],Q2[10],Q3[10]; /* Three Queues */
 
 int n;
 void sortByArrival()
