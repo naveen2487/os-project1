@@ -79,8 +79,8 @@ if(flag1==1)
      {
        time+=Q2[i].RT;
        Q2[i].RT=0;
-       Q2[i].WT=time-tq1-Q2[i].BT;/*amount of time process has been waiting in the ready queue*/
-       Q2[i].TAT=time-Q2[i].AT;/*amount of time to execute the process*/
+       Q2[i].WT=time-tq1-Q2[i].BT;/*amount of time the process has been waiting in the ready queue*/
+       Q2[i].TAT=time-Q2[i].AT;/*amount of time required to execute the process*/
        printf("\n%c\t\t%d\t\t%d\t\t%d",Q2[i].name,Q2[i].BT,Q2[i].WT,Q2[i].TAT);
 
     }
